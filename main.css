@@ -1,0 +1,35 @@
+#logo{
+  width: 70%;
+  height: 30vh;
+  border-radius: 10%;
+  padding: 1rem;
+}
+#band{
+  max-width: 70%;
+  margin: auto 15%;
+  border-radius: 10%
+}
+
+.jumbotron{
+  background-color: hsla(0, 0%, 0%, 0.1)
+}
+h3, a{
+  color: white;
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+body{
+  background: url("https://i.imgur.com/tW0CB9o.jpg") no-repeat fixed;
+  background-size: cover
+}
+.container{
+  background-color: hsla(0, 0%, 0%, 0.5)
+}
+.btn{
+  
+  border-color: white;
+}
+
+#picture, p{
+    color: white;
+    font-family:'Schoolbell', cursive;
+}
