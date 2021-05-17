@@ -1,28 +1,33 @@
-#logo{
-  width: 70%;
-  height: 30vh;
-  border-radius: 10%;
-  padding: 1rem;
+#logo {
+  display: flex;
+  align-items: center;
+justify-content: center;
+  width: 150px;
+  margin: 30px auto;
+  
+
 }
 #band{
-  max-width: 70%;
-  margin: auto 15%;
+  max-width: 100%;
   border-radius: 10%
 }
 
 .jumbotron{
-  background-color: hsla(0, 0%, 0%, 0.1)
+  background-color: hsla(0, 0%, 0%, 0.3);
+  width: 60%;
+  margin: 0 auto;
 }
-h3, a{
+h3{
   color: white;
   font-family: 'ZCOOL KuaiLe', cursive;
 }
 body{
   background: url("https://i.imgur.com/tW0CB9o.jpg") no-repeat fixed;
-  background-size: 100vh;
+  background-size: cover;
 }
 .container{
-  background-color: hsla(0, 0%, 0%, 0.5)
+  background-color: hsla(0, 0%, 0%, 0.5);
+  
 }
 .btn{
   
@@ -32,4 +37,35 @@ body{
 #picture, p{
     color: white;
     font-family:'Schoolbell', cursive;
+}
+
+a {
+text-decoration: none;
+font-family: 'ZCOOL KuaiLe', cursive;
+color: white;
+}
+
+a:hover, a:visited {
+  text-decoration: none;
+  color: lightgray;
+}
+
+
+@media (max-width: 450px){
+  container-fluid {
+    width: 90%;
+    padding: 5px;
+  }
+  .container-fluid .jumbotron{
+    width: 90%
+    }
+  h3 {
+    font-size: 16px;
+  }
+.btn {
+  font-size: 12px;
+  padding: 2px 5px;
+  margin: 2px;
+}
+
 }
